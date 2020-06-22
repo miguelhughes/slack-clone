@@ -1,0 +1,34 @@
+.message {
+  padding: 10px 0 0 15px;
+  display: flex;
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  margin-right: 0.3em;
+}
+
+.time {
+  color: #8899a6;
+  font-size: small;
+}
+
+.count {
+  position: relative;
+  bottom: 2px;
+  font-size: 13px;
+  margin-left: 6px;
+  font-weight: bold;
+}
+.message .text {
+  padding-top: 0.3em;
+}

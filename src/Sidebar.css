@@ -1,0 +1,35 @@
+.sidebar {
+  background-color: #354c73;
+  color: white;
+  padding: 15px 0 0 10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.channel-group > span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+.sidebar li {
+  padding: 2px;
+  margin: 0;
+}
+.sidebar li.selected
+{
+  background-color: #f8c333;
+  border-radius: 5px 0 0 5px;
+  color: #354c73;
+}
+.sidebar li:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+.sidebar li:active {
+  font-weight: bolder;
+  color: #f8c333;
+}
