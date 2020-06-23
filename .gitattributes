@@ -1,0 +1,2 @@
+#exclude index from linguist stats so project isn't categorized as html
+public/index.html -linguist-vendored
