@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import Sidebar from "./Sidebar";
 import Conversation from "./Conversation";
-import "./App.css";
 import initialConversations from "./seed-data";
+import ReadmeViewer from "@bit/miguelhughes.showcase.readme-viewer";
+import "./App.css";
+
 function App() {
   const [conversations] = useState(initialConversations);
   const [activeConversation, setActiveConversation] = useState(
@@ -13,6 +15,7 @@ function App() {
   };
   return (
     <div className="app">
+      <ReadmeViewer repoName="slack-clone" />
       <Sidebar
         channels={conversations}
         activeChannelName={activeConversation}

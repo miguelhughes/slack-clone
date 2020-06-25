@@ -24,3 +24,25 @@ body,
   width: 70%;
   /* background-color: #ccc; */
 }
+
+.readme-viewer {
+  /* move to right and put it over others */
+  left: auto;
+  right: 20px; /*acoount for possible scrollbar*/
+  z-index: 10;
+  width: 5.5em;
+}
+.readme-viewer.expanded,
+.readme-viewer .wrapper {
+  height: 400px;
+  width: 800px;
+}
+.readme-viewer .wrapper {
+  padding-left: 10px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.readme-viewer button:first-of-type {
+  margin-left: -10px;
+}
